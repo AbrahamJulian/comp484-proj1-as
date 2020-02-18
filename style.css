@@ -1,2 +1,83 @@
+body{
+    margin: 0 0 0 0;
+}
+body a:hover{
+    color: rgba(255, 212, 119, 0.849);
+    transition: 0.5s;
+}
+.head{
+    background-color: #000;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.navbar-nav{
+    overflow:hidden;
+    justify-content: center;
+    flex-direction: row;
+    display:flex;
+    padding: 5vh 0 0 0;
+}
+
+.navbar ul{
+    margin:0 0 0 0;
+    list-style:none;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-align:center;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    font-weight: 500;
+    margin: 25px;
+    outline: 0;
+}
+
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 212, 119, 0.849);
+}
+
+h2{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(255, 212, 119, 0.849);
+}
+
+h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    color: rgba(87, 59, 0, 0.849);
+    margin-bottom: 0;
+}
+
+p{
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+}
+
 main{
+    padding: 30px 50px 10px 50px;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+footer a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer p{
+    margin-top: 10px;
 }
